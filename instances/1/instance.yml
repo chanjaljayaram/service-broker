@@ -27,8 +27,8 @@ serviceDefinition:
   metadata: {}
   requires: []
   dashboardClient: null
-originatingIdentity: !<cloudfoundry>
-  platform: "cloudfoundry"
+originatingIdentity: !<PlatformContext>
+  platform: "pks"
   user_id: "683ea748-3092-4ff4-b656-39cacc4d5360"
 asyncAccepted: true
 parameters: {}
